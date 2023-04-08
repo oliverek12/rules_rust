@@ -30,7 +30,7 @@ def rust_wasm_bindgen_dependencies():
     maybe(
         http_archive,
         name = "rules_rust_wasm_bindgen_cli",
-        sha256 = "5a0e951a61574d4ba2d9d2705cc6b7cd8d67aefeb982bf2a60a9c7b05bef5682",
+        sha256 = "ecfd890010734596814d84605cf8257e3a0d76893966202e3389a68239ed09a7",
         urls = ["https://crates.io/api/v1/crates/wasm-bindgen-cli/{}/download".format(WASM_BINDGEN_VERSION)],
         type = "tar.gz",
         strip_prefix = "wasm-bindgen-cli-{}".format(WASM_BINDGEN_VERSION),
