@@ -18,7 +18,7 @@ load("@bazel_tools//tools/build_defs/repo:http.bzl", "http_archive")
 load("@bazel_tools//tools/build_defs/repo:utils.bzl", "maybe")
 load("//wasm_bindgen/3rdparty/crates:defs.bzl", "crate_repositories")
 
-WASM_BINDGEN_VERSION = "0.2.83"
+WASM_BINDGEN_VERSION = "0.2.84"
 
 # buildifier: disable=unnamed-macro
 def rust_wasm_bindgen_dependencies():
